@@ -8,6 +8,7 @@ Custom loading bar.
 
 optional arguments:
   -h, --help        show this help message and exit
+  
   -b , --bar        desired length of bar
   -e , --elements   number of elements
   -c , --color      Color of bar (red, yellow, green
