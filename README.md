@@ -8,6 +8,8 @@ Colored progress bar using ANSI escape codes in python
 The trick here is to move the cursor to the far left (using the D code), clearing the screen then re-printing the whole bar adding the progress to it.
 The default bar length is set to 100, which can be changed using -b switch
 
+Right now, only the colors red, yellow and green are updated. You can add as many as you want in the dictionary and update accordingly.
+
 usage: load_progress.py [-h] [-b] [-e] [-c] [-s]
 
 Custom loading bar.
