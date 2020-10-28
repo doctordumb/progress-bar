@@ -5,9 +5,14 @@ usage: load_progress.py [-h] [-b] [-e] [-c] [-s]
 
 Custom loading bar.
 
-optional arguments:
+optional arguments
+
   -h, --help        show this help message and exit
+  
   -b , --bar        desired length of bar
+  
   -e , --elements   number of elements
+  
   -c , --color      Color of bar (red, yellow, green
+  
   -s , --symbol     Symbol to use in a bar
