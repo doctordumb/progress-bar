@@ -1,4 +1,8 @@
 # progress-bar
+
+https://ironcladinfosec.com/ansi-escape-codes/
+
+
 Colored progress bar using ANSI escape codes in python
 
 The trick here is to move the cursor to the far left (using the D code), clearing the screen then re-printing the whole bar adding the progress to it.
